@@ -8,7 +8,12 @@ class DetallePelicula : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.detalle_pelicula)
 
+        val bundle= intent.extras
 
-
+        if(bundle!=null){
+            imgPeliculaDetalle.setImageResource(bundle.getInt("header"))
+            tituloPeliculaDetalle.setText(bundle.getString("titulo"))
+            descripcion.setText(bundle.getString("descripcion"))
+        }
     }
 }
