@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PopCornFactory">
+        <activity android:name=".SeleccionAsiento"></activity>
+        <activity android:name=".ReservacionActivity" />
+        <activity android:name=".DescripcionPelicula" />
+        <activity android:name=".MenuActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

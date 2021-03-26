@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">PopCornFactory</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="bienvenido">Bienvenido a PopCorn Factory</string>
     <string name="peliculas">Peliculas</string>
     <string name="series">Series</string>
+    <string name="comprar">Comprar Ticket</string>
+    <string name="disfruta">Disfruta la película</string>
 </resources>
